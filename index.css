@@ -1,0 +1,137 @@
+body {
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+  background: linear-gradient(#efb0c9, #a2d2ff);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h4,
+h2 {
+  text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #a2d2ff;
+}
+
+#bdy-age {
+  background-color: #a2d2ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 15px 0 10px 0;
+}
+
+#bdy-date {
+  background-color: #a2d2ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 200px;
+  border: 6px solid white;
+  border-radius: 10px;
+  transition: width 0.3s, height 0.3s;
+}
+
+#gift-img-01:hover {
+  background-image: url("images/01.gif");
+}
+
+#gift-img-02:hover {
+  background-image: url("images/02.gif");
+}
+
+#gift-img-03:hover {
+  background-image: url("images/03.gif");
+}
+
+#gift-img-04:hover {
+  background-image: url("images/04.gif");
+  background-position: left;
+}
+
+#gift-img-05:hover {
+  background-image: url("images/05.gif");
+}
+
+#gift-img-06:hover {
+  background-image: url("images/06.gif");
+}
+
+#gift-img-07:hover {
+  background-image: url("images/07.gif");
+}
+
+#gift-img-08:hover {
+  background-image: url("images/08.gif");
+}
+
+#gift-img-09:hover {
+  background-image: url("images/09.gif");
+}
+
+#gift-img-10:hover {
+  background-image: url("images/10.gif");
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("https://media.giphy.com/media/mFSEfZlTrgX3CD150c/giphy.gif");
+}
+
+#footer {
+  width: 400px;
+  margin: 40px auto 20px;
+  font-style: italic;
+}
+
+a {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .gift-img {
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    width: 300px;
+    margin: auto;
+  }
+
+  #footer {
+    width: 320px;
+  }
+}
